@@ -1,0 +1,30 @@
+
+body, h1, p, ul, ol {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh; 
+}
+
+
+img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px; 
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #333;
+    color: white;
+    text-align: center;
+}
