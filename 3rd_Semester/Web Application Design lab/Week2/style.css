@@ -1,0 +1,19 @@
+body{
+    background-image: url(images/bdkreta.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    background-position: left center;
+}
+h2 {
+    text-align:  center;
+    padding-top: 40px; 
+}
+h1{
+    text-align: center;
+    padding-top: 40ox;
+}
+div{
+    background-color: rgba(255, 200, 0, 0.116);
+    padding-left: 45%;
+
+}
