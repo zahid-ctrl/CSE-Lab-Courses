@@ -1,0 +1,5 @@
+Name        :  ttt
+Password  :  12345
+Mobile       :  8779
+Email         :  ty
+Gender      :  Male

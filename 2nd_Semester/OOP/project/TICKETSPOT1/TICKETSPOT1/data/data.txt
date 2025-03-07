@@ -1,0 +1,13 @@
+Name        :  ABC
+Password  :  12345
+Mobile       :  01234567
+Email         :  ABC@gmail.com
+Gender      :  Male
+=================
+Name        :  ttt
+Password  :  12345
+Mobile       :  8779
+Email         :  ty
+Gender      :  Male
+
+=================
