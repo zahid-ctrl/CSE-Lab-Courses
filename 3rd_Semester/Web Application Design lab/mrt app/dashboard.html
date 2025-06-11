@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Metro Rail Fare Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🚇 Metro Rail Fare Calculator</h1>
+
+    <!-- Fare Calculator -->
+    <div class="form-group">
+      <label for="start">From:</label>
+      <select id="start"></select>
+
+      <label for="end">To:</label>
+      <select id="end"></select>
+
+      <button onclick="calculateFare()">Calculate Fare</button>
+    </div>
+    <div id="result"></div>
+
+
+   <hr>
+
+    <!-- Train Route Section -->
+    <h2>📍 Metro Rail Route Map</h2>
+    <p>This is the official route map of the MRT line:</p>
+    <img src="images/rute.png" alt="Metro Rail Route Map" width="100%" />
+
+
+
+    <hr>
+
+    <!-- Schedule Section -->
+    <h2>🕒 Metro Rail Train Schedule</h2>
+    <p>Here are the latest schedules for MRT trains:</p>
+    <img src="images/time1.png" alt="Schedule 1" width="100%" />
+    <br><br>
+    <img src="images/time2.png" alt="Schedule 2" width="100%" />
+    <br><br>
+    <img src="images/time3.png" alt="Schedule 3" width="100%" />
+
+ 
+  </div>
+
+  <script src="fareData.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
