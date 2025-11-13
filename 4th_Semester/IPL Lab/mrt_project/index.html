@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MRT User Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>🚇 MRT Card Login</h2>
+
+    <form action="save_user.php" method="post">
+      <label for="card">MRT Card Number:</label>
+      <input type="text" id="card" name="card" required>
+
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</body>
+</html>
