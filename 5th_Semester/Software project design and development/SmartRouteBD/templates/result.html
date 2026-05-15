@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Result</title>
+
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<h2>Recommended Route</h2>
+
+<p><b>From:</b> {{route[1]}}</p>
+
+<p><b>To:</b> {{route[2]}}</p>
+
+<p><b>Vehicle:</b> {{route[3]}}</p>
+
+<p><b>Distance:</b> {{route[4]}} km</p>
+
+<p><b>Traffic Level:</b> {{route[5]}}</p>
+
+<p><b>Estimated Time:</b> {{route[6]}} minutes</p>
+
+<p><b>Estimated Fare:</b> {{route[7]}} Tk</p>
+
+<p><b>Route Details:</b> {{route[8]}}</p>
+
+<br>
+
+<a href="/book/{{route[0]}}">
+    Proceed To Payment
+</a>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Booking Success</title>
+
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<h2>Ticket Booked Successfully!</h2>
+
+<p>Your payment was successful.</p>
+
+<p>
+<b>Transaction ID:</b>
+{{transaction_id}}
+</p>
+
+<p>
+Your SmartRoute BD digital ticket has been confirmed.
+</p>
+
+<a href="/search">
+Search Another Route
+</a>
+
+</body>
+</html>
