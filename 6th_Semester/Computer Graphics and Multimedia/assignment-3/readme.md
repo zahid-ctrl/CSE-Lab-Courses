@@ -1,4 +1,4 @@
-# Task 2: Cyan Star
+# Task: Cyan Star
 
 This project draws a cyan colored star using triangles with OpenGL.
 
