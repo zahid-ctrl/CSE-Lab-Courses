@@ -1,5 +1,13 @@
-OpenGL Cyan Square & Magenta Triangle
+Task: Cyan Square & Magenta Triangle
 
-A simple OpenGL project that displays a cyan square on a white background with a magenta triangle placed on top, sharing two corner points of the square.
+OpenGL Project
 
-The window title is set to the student's full name, and the program closes when the first letter of the name is pressed.
+This project draws a cyan colored square with a magenta triangle on top using OpenGL.
+
+Requirements:
+
+Cyan square
+White background
+Magenta triangle sharing two corner points of the square
+Window title: Your Full Name
+Press the first letter of your name to close the window
