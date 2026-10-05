@@ -1,4 +1,4 @@
-Task: Cyan Triangle Color Animation
+#Task: Cyan Triangle Color Animation
 
 This project draws an upside-down triangle on a black background using OpenGL.
 
