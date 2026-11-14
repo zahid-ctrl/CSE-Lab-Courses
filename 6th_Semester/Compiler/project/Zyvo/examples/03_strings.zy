@@ -1,0 +1,8 @@
+# String commands. Function names are not case-sensitive.
+manDao(name, "Zyvo")
+dekhao(Jora("Hello, ", name))
+dekhao("Length :", Doirgho(name))
+dekhao("Reverse:", Ulto(name))
+dekhao(Barbar("ab", 4))
+# works with Bangla text too (counts characters, not bytes)
+dekhao(Doirgho("বাংলা"))

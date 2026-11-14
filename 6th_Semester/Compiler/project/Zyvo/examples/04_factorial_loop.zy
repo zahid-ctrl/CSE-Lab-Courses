@@ -1,0 +1,9 @@
+# Factorial with a Ghuro loop.
+manDao(n, 6)
+manDao(fact, 1)
+manDao(i, 1)
+ghuro(chotoSoman(i, n)) {
+    manDao(fact, gunon(fact, i))
+    baraw(i)
+}
+dekhao("6! =", fact)

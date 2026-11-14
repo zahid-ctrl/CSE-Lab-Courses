@@ -1,0 +1,25 @@
+# A tour of the arithmetic, comparison and logic commands.
+manDao(a, 17)
+manDao(b, 5)
+
+dekhao("Joggo   :", joggo(a, b))
+dekhao("Biyano  :", biyano(a, b))
+dekhao("Gunon   :", gunon(a, b))
+dekhao("Vaggo   :", vaggo(a, b))
+dekhao("Vagsesh :", vagsesh(a, b))
+
+dekhao("Borok      :", borok(a, b))
+dekhao("Chotok     :", chotok(a, b))
+dekhao("Somotul    :", somotul(a, b))
+dekhao("Osomot     :", osomot(a, b))
+dekhao("BoroSoman  :", boroSoman(a, 17))
+dekhao("ChotoSoman :", chotoSoman(a, 16))
+
+dekhao("Ebong  :", ebong(borok(a, b), chotok(a, 100)))
+dekhao("Othoba :", othoba(chotok(a, b), false))
+dekhao("Naaki  :", naaki(true))
+
+dekhao("Borgo    :", borgo(9))
+dekhao("Ghono    :", ghono(3))
+dekhao("Borgomul :", borgomul(144))
+dekhao("Porom    :", porom(-42))

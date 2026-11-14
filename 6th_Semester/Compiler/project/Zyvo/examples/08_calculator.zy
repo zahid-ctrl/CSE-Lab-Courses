@@ -1,0 +1,11 @@
+# Tiny calculator: reads two numbers and prints every operation.
+dhoro(x, "First number : ")
+dhoro(y, "Second number: ")
+dekhao("Sum        =", joggo(x, y))
+dekhao("Difference =", biyano(x, y))
+dekhao("Product    =", gunon(x, y))
+jodi(osomot(y, 0)) {
+    dekhao("Quotient   =", vaggo(x, y))
+} nahole {
+    dekhao("Cannot divide by zero")
+}
