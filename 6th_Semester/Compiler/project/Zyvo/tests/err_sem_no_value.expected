@@ -1,0 +1,5 @@
+err_sem_no_value.zy:1:8: Semantic error: Dekhao: argument 1 has no value (the command inside returns nothing)
+  1 | dekhao(dekhao("x"))
+    |        ^
+1 semantic error(s) found - program not run.
+[exit 3]

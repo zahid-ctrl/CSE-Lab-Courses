@@ -1,0 +1,8 @@
+err_sem_type_mismatch.zy:1:14: Semantic error: Joggo: argument 1 must be a number, but got a text
+  1 | dekhao(joggo("abc", 2))
+    |              ^
+err_sem_type_mismatch.zy:2:14: Semantic error: Ebong: argument 1 must be a true/false value, but got a number
+  2 | dekhao(ebong(1, true))
+    |              ^
+2 semantic error(s) found - program not run.
+[exit 3]

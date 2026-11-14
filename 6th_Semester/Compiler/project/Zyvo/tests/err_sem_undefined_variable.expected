@@ -1,0 +1,8 @@
+err_sem_undefined_variable.zy:1:8: Semantic error: Variable 'total' is used before it is defined (define it with ManDao(total, value))
+  1 | dekhao(total)
+    |        ^
+err_sem_undefined_variable.zy:2:17: Semantic error: Variable 'x' is used before it is defined (define it with ManDao(x, value))
+  2 | manDao(x, joggo(x, 1))
+    |                 ^
+2 semantic error(s) found - program not run.
+[exit 3]

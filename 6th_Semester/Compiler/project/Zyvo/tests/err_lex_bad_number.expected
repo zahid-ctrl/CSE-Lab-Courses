@@ -1,0 +1,4 @@
+err_lex_bad_number.zy:1:11: Lexical error: Malformed number '12abc' (letters directly after digits)
+  1 | manDao(a, 12abc)
+    |           ^
+[exit 2]

@@ -1,0 +1,4 @@
+manDao(i, 0)
+ghuro(chotok(i, 10)) {
+    manDao(x, i)
+}

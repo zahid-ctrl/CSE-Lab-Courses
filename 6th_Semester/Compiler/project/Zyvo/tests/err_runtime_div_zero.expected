@@ -1,0 +1,5 @@
+before
+err_runtime_div_zero.zy:3:8: Runtime error: Division by zero
+  3 | dekhao(vaggo(5, z))
+    |        ^
+[exit 4]

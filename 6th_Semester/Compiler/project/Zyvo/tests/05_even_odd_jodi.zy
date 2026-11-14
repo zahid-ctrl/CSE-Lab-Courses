@@ -1,0 +1,10 @@
+# Jodi / nahole (if / else) inside a loop: label the numbers 1..6.
+manDao(i, 1)
+ghuro(chotok(i, 7)) {
+    jodi(somotul(vagsesh(i, 2), 0)) {
+        dekhao(i, "is even")
+    } nahole {
+        dekhao(i, "is odd")
+    }
+    baraw(i)
+}

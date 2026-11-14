@@ -1,0 +1,5 @@
+err_sem_bad_condition.zy:1:6: Semantic error: The condition of Jodi must be a true/false value, but this is a number
+  1 | jodi(5) {
+    |      ^
+1 semantic error(s) found - program not run.
+[exit 3]

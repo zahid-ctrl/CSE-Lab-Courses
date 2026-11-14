@@ -1,0 +1,6 @@
+# The exact sample program from the project proposal.
+# Expected output: 15
+manDao(a, 10)
+manDao(b, 5)
+manDao(result, joggo(a, b))
+dekhao(result)

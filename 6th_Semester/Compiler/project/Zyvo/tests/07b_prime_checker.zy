@@ -1,0 +1,15 @@
+# Reads a number and tells whether it is prime.
+dhoro(n, "Enter a number: ")
+manDao(isPrime, borok(n, 1))
+manDao(d, 2)
+ghuro(ebong(isPrime, chotoSoman(borgo(d), n))) {
+    jodi(somotul(vagsesh(n, d), 0)) {
+        manDao(isPrime, false)
+    }
+    baraw(d)
+}
+jodi(isPrime) {
+    dekhao(n, "is prime")
+} nahole {
+    dekhao(n, "is not prime")
+}

@@ -1,0 +1,4 @@
+err_lex_unclosed_string.zy:1:8: Lexical error: Unclosed string literal (missing closing ")
+  1 | dekhao("Hello)
+    |        ^
+[exit 2]

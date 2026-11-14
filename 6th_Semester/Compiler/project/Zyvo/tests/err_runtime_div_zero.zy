@@ -1,0 +1,4 @@
+manDao(z, 0)
+dekhao("before")
+dekhao(vaggo(5, z))
+dekhao("never printed")

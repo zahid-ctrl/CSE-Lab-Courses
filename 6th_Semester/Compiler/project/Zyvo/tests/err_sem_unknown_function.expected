@@ -1,0 +1,5 @@
+err_sem_unknown_function.zy:2:8: Semantic error: Unknown function 'joog' - did you mean Joggo?
+  2 | dekhao(joog(a, 2))
+    |        ^
+1 semantic error(s) found - program not run.
+[exit 3]

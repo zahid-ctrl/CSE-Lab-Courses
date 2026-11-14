@@ -1,0 +1,2 @@
+err_syntax_missing_brace.zy:4:1: Syntax error: Missing '}' - the block opened at line 2, column 21 is never closed
+[exit 2]

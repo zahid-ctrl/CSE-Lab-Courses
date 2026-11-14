@@ -1,0 +1,4 @@
+err_lex_bad_character.zy:2:10: Lexical error: Unexpected character '@'
+  2 | dekhao(a @ 2)
+    |          ^
+[exit 2]

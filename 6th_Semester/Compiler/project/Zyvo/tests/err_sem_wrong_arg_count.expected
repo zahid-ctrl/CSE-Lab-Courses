@@ -1,0 +1,5 @@
+err_sem_wrong_arg_count.zy:1:8: Semantic error: Joggo expects 2 argument(s) but got 3
+  1 | dekhao(joggo(1, 2, 3))
+    |        ^
+1 semantic error(s) found - program not run.
+[exit 3]

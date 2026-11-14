@@ -1,0 +1,4 @@
+err_runtime_infinite_loop.zy:2:7: Runtime error: Ghuro ran more than 1000000 times - possible infinite loop (is the variable ever changed?)
+  2 | ghuro(chotok(i, 10)) {
+    |       ^
+[exit 4]

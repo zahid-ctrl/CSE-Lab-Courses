@@ -1,0 +1,4 @@
+err_syntax_else_without_if.zy:1:1: Syntax error: 'nahole' has no matching Jodi(...) { ... } before it
+  1 | nahole {
+    | ^
+[exit 2]

@@ -1,0 +1,5 @@
+err_sem_literal_zero.zy:1:18: Semantic error: Vaggo: the second argument is 0 (division by zero)
+  1 | dekhao(vaggo(10, 0))
+    |                  ^
+1 semantic error(s) found - program not run.
+[exit 3]

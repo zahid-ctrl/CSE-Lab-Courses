@@ -1,0 +1,11 @@
+# First 10 Fibonacci numbers.
+manDao(a, 0)
+manDao(b, 1)
+manDao(count, 0)
+ghuro(chotok(count, 10)) {
+    dekhao(a)
+    manDao(next, joggo(a, b))
+    manDao(a, b)
+    manDao(b, next)
+    baraw(count)
+}
